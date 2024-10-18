@@ -16,7 +16,11 @@
         "typeRoots": ["./typings"],
         "experimentalDecorators": true,
         "esModuleInterop": true,
-        "resolveJsonModule": true
+        "resolveJsonModule": true,
+        "baseUrl": ".",
+        "paths": {
+            "@/*": ["src/*"]
+        }
     },
     "include": ["./src/**/*.ts", "./typings/**/*.d.ts"],
     "exclude": ["node_modules", "dist"]
