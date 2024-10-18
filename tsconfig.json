@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "rootDir": "src",
+        "module": "commonjs",
+        "target": "es6",
+        "sourceMap": true,
+        "outDir": "dist",
+        "noEmitOnError": true,
+        "declaration": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "lib": ["esnext"],
+        "skipLibCheck": true,
+        "allowSyntheticDefaultImports": true,
+        "noImplicitAny": true,
+        "typeRoots": ["./typings"],
+        "experimentalDecorators": true,
+        "esModuleInterop": true,
+        "resolveJsonModule": true
+    },
+    "include": ["./src/**/*.ts", "./typings/**/*.d.ts"],
+    "exclude": ["node_modules", "dist"]
+}
